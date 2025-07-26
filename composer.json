@@ -1,0 +1,16 @@
+{
+    "name": "generated/blogapi-cli",
+    "description": "Auto-generated CLI client for BlogAPI API",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "bin": [
+        "blogapi-cli"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Generated\\": "src/"
+        }
+    }
+}
